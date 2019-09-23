@@ -23,9 +23,13 @@
   .box {
     font-size: 85px;
   }
-  .howWeGrow {
+  .sectionTitles {
     font-size: 60px;
   }
 .processSize{
-  height:100px;
+  height: 400px;
+}
+.hireText {
+  height: 400px;
+  font-size: 35px;
 }

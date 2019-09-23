@@ -48,21 +48,28 @@ body, html {
 .learnMore {
   border: 5px solid white;
 }
-.howWeGrow {
+.sectionTitles {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: rgba(243, 178, 28, 1);
 }
 .businessDev{
   background-color: red;
+  background-image: url(/images/business.jpeg);
 }
 .branding{
   background-color: green;
+  background-image: url(/images/brand.jpeg);
+  background-repeat: no-repeat;
 }
 .creative{
   background-color: blue;
+  background-image: url(/images/creative.jpeg);
 }
-
+.backgroundImageControl{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .mainPic > img {
   display:block;
   margin: 0 auto;
@@ -106,7 +113,34 @@ body, html {
 .column {
   float: left;
   width: 33.33%;
+}
+.hireColumn {
+  float: left;
+  width: 49%;
   padding: 5px;
+}
+.boutique {
+  background-image: url("/images/boutique-business.jpeg");
+}
+.smallBusiness {
+  background-image: url("/images/small-business.jpeg");
+}
+.largebusiness {
+  background-image: url("/images/fortune-500.jpg");
+}
+.hireText {
+  background-color: rgba(243, 178, 28, 1);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.grayscale {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.grayscale > background-image:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  width: 600px;
 }
 
 /* Clearfix (clear floats) */
