@@ -26,10 +26,25 @@ body, html {
   height: auto
 }
 .header > li {
-  color: rgba(20, 19, 19, 1);
   list-style-type: none;
   display: inline;
   padding: 0 1%;
+}
+.headerLinks > a:link {
+ text-decoration: none;
+ list-style: none;
+ color: rgba(243, 178, 28, 1);
+ font-family: 'Oswald', sans-serif;
+}
+.headerLinks > a:visited{
+text-decoration: none;
+list-style: none;
+color: rgba(243, 178, 28, 1);
+}
+.headerLinks > a:hover {
+text-decoration: none;
+list-style: none;
+color:gray;
 }
 #logoImg {
   max-height:30px;
@@ -162,4 +177,41 @@ body, html {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
   width: 600px;
+}
+.footer {
+  background-color: rgba(243, 178, 28, 1);
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+}
+.footerInfo {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  list-style: none;
+}
+ .links > a:link {
+  text-decoration: none;
+  list-style: none;
+}
+.links > a:visited{
+ text-decoration: none;
+ list-style: none;
+ color:white;
+}
+.links > a:hover {
+ text-decoration: none;
+ list-style: none;
+ color:gray;
+}
+.footerColumn {
+  float: left;
+  width: 15%;
+  margin: 0 auto;
+}
+.copyright {
+  background-color: rgba(243, 178, 28, 1);
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding:30px 0 0 0;
 }
