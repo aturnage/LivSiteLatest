@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.border{
+  border: 5px solid red;
+}
+.container960 {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+.container720 {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0;
+}
+.responsive {
+  width: 100%;
+  height: auto
+}
+.header > li {
+  color: rgba(20, 19, 19, 1);
+  list-style-type: none;
+  display: inline;
+  padding: 0 1%;
+}
+#logoImg {
+  max-height:30px;
+  margin: 0px auto;
+  text-shadow: 2px 2px 4px #000000;
+}
+.mainDescription {
+    background-color: rgba(243, 178, 28, 1);
+    color: white;
+}
+.livDescription {
+  text-align: center;
+  padding: 5% 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.learnMore {
+  border: 5px solid white;
+}
+.howWeGrow {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: rgba(243, 178, 28, 1);
+}
+#tagline {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color:  rgba(236, 182, 92, 1);
+    font-size: 20px;
+    margin: 0;
+}
+.mainPic > img {
+  display:block;
+  margin: 0 auto;
+  background-color: rgba(255, 250, 250, 0.5);
+}
+.header{
+  text-align: center;
+  margin: 30px;
+}
+.skillsList {
+  text-align: center;
+  list-style: none;
+  font-family: 'Cousine', monospace;
+}
+.titleFont {
+  font-family: 'Cousine', monospace;
+}
+.descriptionTitle, .descriptionOne, .descriptionTwo, .descriptionFinal, .skillsList {
+  font-family: 'Manjari', sans-serif;
+}
+.descriptionTwo, .descriptionFinal, .descriptionTitle{
+  margin: 20px;
+  text-align: center;
+}
+.descriptionTitle {
+  font-size: 20px;
+  margin: 50px 0px 0px 0px;
+}
+.footerPic{
+  height: 40px;
+  padding: 20px;
+}
+
+/* Image rows */
+* {
+  box-sizing: border-box;
+}
+.row {
+  padding: 0 30px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column > img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.column > img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  width: 600px;
+}
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(40,40,40,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
