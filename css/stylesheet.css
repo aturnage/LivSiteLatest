@@ -192,7 +192,7 @@ color:gray;
   font-family: 'Oswald', sans-serif;
   list-style: none;
 }
- .links > a:link {
+ .link > a:link {
   text-decoration: none;
   list-style: none;
 }
@@ -223,4 +223,15 @@ color:gray;
 .processDescrip{
   height: 300px;
   background-color: rgba(243, 178, 28, 1);
+}
+.businessDevList, .brandingList, .creativeList {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  color: gray;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.processList {
+  font-weight: bold;
 }
