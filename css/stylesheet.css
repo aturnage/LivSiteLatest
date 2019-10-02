@@ -60,6 +60,10 @@ color:gray;
   padding: 5% 0;
   font-family: 'Montserrat', sans-serif;
 }
+.descripWords {
+  font-style: italic;
+  color: gray;
+}
 .learnMore {
   border: 5px solid white;
 }
