@@ -27,7 +27,61 @@
     </div>
   </div>
 </div>
+<div class="sectionTitles">
+  <p>HOW CAN WE HELP?</p>
+  <p id="assistance">Provide us with a little information so we can better assist you</p>
+</div>
+<form class="container720"action="mailto:aturnage@livstl.com" method="POST" enctype="text/plain">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Last name.." required>
+
+<label for="companyName">Company Name</label>
+<input type="text" id="CompanyName" name="CompanyName" placeholder="ex.Liv Consultants.." required>
+
+<label for="email">Email</label>
+<input type="text" id="email" name="email" placeholder="ex.aturnag@livstl.com..">
+
+<label for="phone">Phone</label>
+<input type="text" id="phone" name="phone" placeholder="ex.314-555-5555.." required>
+
+<label for="type" required>Type of Industry</label>
+<select id="type" name="type">
+  <option value="Planning">City Development</option>
+  <option value="Entertainment">Branding</option>
+  <option value="Food">Food Services</option>
+  <option value="Healthcare">Healthcare</option>
+  <option value="Hospitality">Hospitality</option>
+  <option value="Nonprofit">Non Profit</option>
+  <option value="Organizations">Organizations</option>
+  <option value="Property">Property</option>
+  <option value="Technology">Technology</option>
+  <option value="Other">Other</option>
+</select>
+
+<label for="Services">Services Requested</label>
+<select id="services" name="services">
+  <option value="Development">Development</option>
+  <option value="Branding">Branding</option>
+  <option value="Creativity">Creativity</option>
+  <option value="Other">Other</option>
+</select>
+
+<label for="Budget">Budget</label>
+<select id="services" name="services" required>
+  <option value="yes">YES</option>
+  <option value="No">NO</option>
+  <textarea name="budgetrange" placeholder="If yes, provide budget range.." rows="1" cols="80"></textarea>
+</select>
+
+<label for="Client Info" required>Describe your needs</label>
+<div>
+  <textarea name="Request" placeholder="I would like to speak with you about..." rows="8" cols="40" required></textarea>
+</div>
+<input type="submit" value="Submit">
+</form>
 
   <div class="footer">
     <div class="footerColumn footerInfo backgroundImageControl">
