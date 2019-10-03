@@ -60,30 +60,28 @@ color:gray;
   padding: 5% 0;
   font-family: 'Montserrat', sans-serif;
 }
-.descripWords {
-  font-style: italic;
-  color: gray;
-}
-.learnMore {
-  border: 5px solid white;
-}
 .sectionTitles {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: rgba(243, 178, 28, 1);
 }
+.sectionTitlesReverse{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+  background-color: rgba(243, 178, 28, 1);
+}
 .businessDev{
-  background-color: red;
   background-image: url(/images/business.jpeg);
+  background-repeat: no-repeat;
 }
 .branding{
-  background-color: green;
   background-image: url(/images/brand.jpeg);
   background-repeat: no-repeat;
 }
 .creative{
-  background-color: blue;
   background-image: url(/images/creative.jpeg);
+  background-repeat: no-repeat;
 }
 .backgroundImageControl{
   background-size: cover;
@@ -129,14 +127,22 @@ color:gray;
 .row {
   padding: 0 30px;
 }
-.column {
-  float: left;
-  width: 33.33%;
+.servicesColumn{
+  float: Left;
+  width: 25%;
+}
+.flyerColumns {
+  float: Left;
+  width: 25%;
 }
 .hireColumn {
   float: left;
   width: 49%;
   padding: 5px;
+}
+.mailerColumns{
+  float: left;
+  width:33%
 }
 .companyColumn {
   float: left;
@@ -189,7 +195,7 @@ color:gray;
 }
 .footerInfo {
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   list-style: none;
 }
  .link > a:link {
@@ -205,11 +211,6 @@ color:gray;
  text-decoration: none;
  list-style: none;
  color:gray;
-}
-.footerColumn {
-  float: left;
-  width: 15%;
-  margin: 0 auto;
 }
 .copyright {
   background-color: rgba(243, 178, 28, 1);
@@ -234,4 +235,26 @@ color:gray;
 }
 .processList {
   font-weight: bold;
+}
+.servicesInfo {
+  background-color: rgba(243, 178, 28, 1);
+  color: white;
+}
+.processWords{
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+.servicesLogo{
+  background-color: rgba(243, 178, 28, 1);
+  height: 100px;
+}
+.descripWords {
+  color:gray;
+  font-weight: 800;
+  font-style: italic;
+}
+.workSpace > p {
+  margin: 10px 0 0 0;
 }

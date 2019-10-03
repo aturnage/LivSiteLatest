@@ -1,4 +1,5 @@
-.topLeft{
+@media screen and (max-width: 1600px){
+  .topLeft{
     position: absolute;
     top: 150px;
     left: 80px;
@@ -12,13 +13,11 @@
     margin: 0px 5px 0px 5px;
   }
   .descriptSize {
-    font-size: 25px;
+    font-size: 10px;
+    font-weight: 500;
   }
   .outside {
     font-size: 90px;
-  }
-  .the {
-    font-size: 45px;
   }
   .box {
     font-size: 85px;
@@ -26,18 +25,294 @@
   .sectionTitles {
     font-size: 60px;
   }
-.processSize{
-  height: 400px;
+  .sectionTitlesReverse {
+    font-size: 60px;
+  }
+  .processSize{
+    height: 400px;
+  }
+  .hireText {
+    height: 400px;
+    font-size: 35px;
+  }
+  .footer{
+    height: 300px;
+  }
+  .companyRow {
+    margin: 5% 0;
+  }
+  .footerLogo {
+  }
+  .businessDevList, .brandingList, .creativeList > li {
+    font-size: 25px;
+  }
+  .serviceRow {
+    margin: 20px 0 0 0;
+  }
+  .processWords{
+    padding: 23% 0 0 0;
+    font-size: 55px;
+  }
 }
-.hireText {
-  height: 400px;
-  font-size: 35px;
+@media screen and (max-width: 1320px){
+  .topLeft{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+  }
+  .phrase {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: white;
+  }
+  .liv {
+    font-size:100px;
+    margin: 0px 5px 0px 5px;
+  }
+  .descriptSize {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .outside {
+    font-size: 90px;
+  }
+  .box {
+    font-size: 85px;
+  }
+  .sectionTitles {
+    font-size: 60px;
+  }
+  .sectionTitlesReverse {
+    font-size: 60px;
+  }
+  .processSize{
+    height: 400px;
+  }
+  .hireText {
+    height: 400px;
+    font-size: 25px;
+  }
+  .footer{
+    height: 300px;
+  }
+  .companyRow {
+    margin: 5% 0;
+  }
+  .footerLogo {
+  }
+  .businessDevList, .brandingList, .creativeList > li {
+    font-size: 25px;
+  }
+  .serviceRow {
+    margin: 20px 0 0 0;
+  }
+  .processWords{
+    padding: 30% 0 0 0;
+    font-size: 40px;
+    text-shadow: 2px 2px 8px #000000;
+  }
+  .column {
+    /* float: left;
+    width: 33.33%; */
+  }
 }
-.footer{
-  height: 300px;
-}
-.companyRow {
-  margin: 5% 0;
-}
-.footerLogo {
-}
+  @media screen and (min-width: 1024px) {
+    .topLeft{
+      position: absolute;
+      top: 150px;
+      left: 10px;
+    }
+    .liv {
+      font-size: 75px;
+      margin: 0px 1px 0px 1px;
+    }
+    .descriptSize {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    .sectionTitles > p, .sectionTitlesReverse>p{
+      font-size: 35px;
+    }
+    .column {
+      float: left;
+      width: 33.33%;
+    }
+    .processWords{
+      padding: 45% 0 0 0;
+      font-size: 35px;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .hireText > p{
+      font-size: 28px;
+
+    }
+    .footerColumn {
+      float: left;
+      width: 30%;
+      margin: 0 auto;
+      padding: 0 0 0 10px;
+      font-size: 20px;
+    }
+    @media screen and (min-width: 950px){
+      .hireText > p{
+        font-size: 20px;
+      }
+      .column {
+        float: left;
+        width: 33.33%;
+      }
+    }
+    @media screen and (min-width: 800px){
+      .learnMore {
+        border: 5px solid white;
+      }
+    }
+  @media screen and (max-width: 768px) {
+    .topLeft{
+      position: absolute;
+      top: 150px;
+      left: 10px;
+    }
+    .liv {
+      font-size: 50px;
+      margin: 0px 1px 0px 1px;
+    }
+    .descriptSize {
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .sectionTitles >p, .sectionTitlesReverse>p{
+      font-size: 20px;
+    }
+    .column {
+      /* float: left;
+      width: 33.33%; */
+    }
+    .processWords{
+      padding: 30% 0 0 0;
+      font-size: 40px;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .hireText > p{
+      font-size: 20px;
+    }
+    .footerColumn {
+      float: left;
+      width: 30%;
+      margin: 0 auto;
+      padding: 0 0 0 10px;
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 680px) {
+    .topLeft{
+      position: absolute;
+      top: 150px;
+      left: 10px;
+    }
+    .liv {
+      font-size: 30px;
+      margin: 0px 1px 0px 1px;
+    }
+    .descriptSize {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .sectionTitles >p, .sectionTitlesReverse>p{
+      font-size: 20px;
+    }
+    .column {
+      /* float: left;
+      width: 33.33%; */
+    }
+    .processWords{
+      padding: 30% 0 0 0;
+      font-size: 40px;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .hireText > p{
+      font-size: 15px;
+    }
+    .footerColumn {
+      float: left;
+      width: 30%;
+      margin: 0 auto;
+      padding: 0 0 0 10px;
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .topLeft{
+      position: absolute;
+      top: 150px;
+      left: 10px;
+    }
+    .liv {
+      font-size: 30px;
+      margin: 0px 1px 0px 1px;
+    }
+    .descriptSize {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .sectionTitles > p, .sectionTitlesReverse>p{
+      font-size: 20px;
+    }
+    .column {
+      /* float: left;
+      width: 33.33%; */
+    }
+    .processWords{
+      padding: 50% 0 0 0;
+      font-size: 40px;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .hireText > p{
+      font-size: 15px;
+      max-width: 200px;
+    }
+    .footerColumn {
+      float: left;
+      width: 30%;
+      margin: 0 auto;
+      padding: 0 0 0 10px;
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .topLeft{
+      position: absolute;
+      top: 100px;
+      left: 10px;
+    }
+    .liv {
+      font-size: 30px;
+      margin: 0px 1px 0px 1px;
+    }
+    .descriptSize {
+      font-size: 10px;
+      font-weight: 500;
+    }
+    .sectionTitles >p, .sectionTitlesReverse>p{
+      font-size: 15px;;
+    }
+    .column {
+      /* float: left;
+      width: 33.33%; */
+    }
+    .processWords{
+      padding: 50% 0 0 0;
+      font-size: 40px;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .hireText > p{
+      font-size: 15px;
+      max-width: 200px;
+    }
+    .footerColumn {
+      float: left;
+      width: 30%;
+      margin: 0 auto;
+      padding: 0 0 0 10px;
+      font-size: 10px;
+    }
+  }
