@@ -1,68 +1,9 @@
-@media screen and (max-width: 1600px){
-  .topLeft{
-    position: absolute;
-    top: 150px;
-    left: 80px;
-  }
-  .phrase {
-    font-family: 'Zilla Slab Highlight', cursive;
-    color: white;
-  }
-  .liv {
-    font-size: 150px;
-    margin: 0px 5px 0px 5px;
-  }
-  .descriptSize {
-    font-size: 10px;
-    font-weight: 500;
-  }
-  .outside {
-    font-size: 90px;
-  }
-  .box {
-    font-size: 85px;
-  }
-  .sectionTitles {
-    font-size: 60px;
-  }
-  .sectionTitlesReverse {
-    font-size: 60px;
-  }
-  .processSize{
-    height: 400px;
-  }
-  .hireText {
-    height: 400px;
-    font-size: 35px;
-  }
-  .footer{
-    height: 300px;
-  }
-  .companyRow {
-    margin: 5% 0;
-  }
-  .footerLogo {
-  }
-  .businessDevList, .brandingList, .creativeList > li {
-    font-size: 25px;
-  }
-  .serviceRow {
-    margin: 20px 0 0 0;
-  }
-  .processWords{
-    padding: 23% 0 0 0;
-    font-size: 55px;
-  }
-}
+
 @media screen and (max-width: 1320px){
   .topLeft{
     position: absolute;
     top: 150px;
     left: 80px;
-  }
-  .phrase {
-    font-family: 'Zilla Slab Highlight', cursive;
-    color: white;
   }
   .liv {
     font-size:100px;
@@ -98,6 +39,7 @@
     margin: 5% 0;
   }
   .footerLogo {
+    max-width:100px;
   }
   .businessDevList, .brandingList, .creativeList > li {
     font-size: 25px;
@@ -111,11 +53,11 @@
     text-shadow: 2px 2px 8px #000000;
   }
   .column {
-    /* float: left;
-    width: 33.33%; */
+    float: left;
+    width: 33.33%;
   }
 }
-  @media screen and (min-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     .topLeft{
       position: absolute;
       top: 150px;
@@ -152,20 +94,7 @@
       padding: 0 0 0 10px;
       font-size: 20px;
     }
-    @media screen and (min-width: 950px){
-      .hireText > p{
-        font-size: 20px;
-      }
-      .column {
-        float: left;
-        width: 33.33%;
-      }
-    }
-    @media screen and (min-width: 800px){
-      .learnMore {
-        border: 5px solid white;
-      }
-    }
+
   @media screen and (max-width: 768px) {
     .topLeft{
       position: absolute;
@@ -184,8 +113,8 @@
       font-size: 20px;
     }
     .column {
-      /* float: left;
-      width: 33.33%; */
+      float: left;
+      width: 33.33%;
     }
     .processWords{
       padding: 30% 0 0 0;
@@ -221,8 +150,8 @@
       font-size: 20px;
     }
     .column {
-      /* float: left;
-      width: 33.33%; */
+      float: left;
+      width: 33.33%;
     }
     .processWords{
       padding: 30% 0 0 0;
@@ -230,7 +159,7 @@
       text-shadow: 2px 2px 4px #000000;
     }
     .hireText > p{
-      font-size: 15px;
+      font-size: 10px;
     }
     .footerColumn {
       float: left;
@@ -258,8 +187,8 @@
       font-size: 20px;
     }
     .column {
-      /* float: left;
-      width: 33.33%; */
+      float: left;
+      width: 33.33%;
     }
     .processWords{
       padding: 50% 0 0 0;
@@ -267,8 +196,7 @@
       text-shadow: 2px 2px 4px #000000;
     }
     .hireText > p{
-      font-size: 15px;
-      max-width: 200px;
+      font-size: 10px;
     }
     .footerColumn {
       float: left;
@@ -292,21 +220,16 @@
       font-size: 10px;
       font-weight: 500;
     }
-    .sectionTitles >p, .sectionTitlesReverse>p{
+    .sectionTitles > p, .sectionTitlesReverse > p {
       font-size: 15px;;
-    }
-    .column {
-      /* float: left;
-      width: 33.33%; */
     }
     .processWords{
       padding: 50% 0 0 0;
       font-size: 40px;
       text-shadow: 2px 2px 4px #000000;
     }
-    .hireText > p{
-      font-size: 15px;
-      max-width: 200px;
+    .hireText > p {
+      font-size: 50px;
     }
     .footerColumn {
       float: left;
@@ -315,4 +238,4 @@
       padding: 0 0 0 10px;
       font-size: 10px;
     }
-  }
+  };

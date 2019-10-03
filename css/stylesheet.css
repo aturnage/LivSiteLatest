@@ -83,14 +83,14 @@ color:gray;
   background-image: url(/images/creative.jpeg);
   background-repeat: no-repeat;
 }
-.backgroundImageControl{
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .mainPic > img {
   display:block;
   margin: 0 auto;
   background-color: rgba(255, 250, 250, 0.5);
+}
+.backgroundImageControl{
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .header{
   text-align: center;
@@ -257,4 +257,9 @@ color:gray;
 }
 .workSpace > p {
   margin: 10px 0 0 0;
+}
+.phrase {
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: white;
+  font-size: 5vw;
 }
