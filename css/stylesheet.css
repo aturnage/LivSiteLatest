@@ -248,7 +248,7 @@ color:gray;
   font-family: 'Montserrat', sans-serif;
 }
 .processList {
-  font-weight: bold;
+  font-weight: 800;
 }
 .servicesInfo {
   background-color: rgba(243, 178, 28, 1);
@@ -259,6 +259,12 @@ color:gray;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
+  font-size: 3vw;
+  top: 50%
+  transform: translateY(-50%);
+}
+.processSize{
+  height: 400px;
 }
 .servicesLogo{
   background-color: rgba(243, 178, 28, 1);
@@ -276,4 +282,7 @@ color:gray;
   font-family: 'Zilla Slab Highlight', cursive;
   color: white;
   font-size: 5vw;
+}
+.businessDevList, .brandingList, .creativeList > li {
+  font-size: 3vw;
 }

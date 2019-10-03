@@ -19,13 +19,6 @@
   .box {
     font-size: 85px;
   }
-  .processSize{
-    height: 400px;
-  }
-  /* .hireText {
-    height: 400px;
-    font-size: 25px;
-  } */
   .footer{
     height: 300px;
   }
@@ -35,16 +28,8 @@
   .footerLogo {
     max-width:100px;
   }
-  .businessDevList, .brandingList, .creativeList > li {
-    font-size: 25px;
-  }
   .serviceRow {
     margin: 20px 0 0 0;
-  }
-  .processWords{
-    padding: 30% 0 0 0;
-    font-size: 40px;
-    text-shadow: 2px 2px 8px #000000;
   }
   .column {
     float: left;
@@ -69,15 +54,6 @@
       float: left;
       width: 33.33%;
     }
-    .processWords{
-      padding: 45% 0 0 0;
-      font-size: 35px;
-      text-shadow: 2px 2px 4px #000000;
-    }
-    /* .hireText > p{
-      font-size: 28px;
-
-    } */
     .footerColumn {
       float: left;
       width: 30%;
@@ -104,14 +80,6 @@
       float: left;
       width: 33.33%;
     }
-    .processWords{
-      padding: 30% 0 0 0;
-      font-size: 40px;
-      text-shadow: 2px 2px 4px #000000;
-    }
-    /* .hireText > p{
-      font-size: 20px;
-    } */
     .footerColumn {
       float: left;
       width: 30%;
@@ -138,14 +106,6 @@
       float: left;
       width: 33.33%;
     }
-    .processWords{
-      padding: 30% 0 0 0;
-      font-size: 40px;
-      text-shadow: 2px 2px 4px #000000;
-    }
-    /* .hireText > p{
-      font-size: 10px;
-    } */
     .footerColumn {
       float: left;
       width: 30%;
@@ -172,14 +132,6 @@
       float: left;
       width: 33.33%;
     }
-    .processWords{
-      padding: 50% 0 0 0;
-      font-size: 40px;
-      text-shadow: 2px 2px 4px #000000;
-    }
-    /* .hireText > p{
-      font-size: 10px;
-    } */
     .footerColumn {
       float: left;
       width: 30%;
@@ -202,14 +154,6 @@
       font-size: 10px;
       font-weight: 500;
     }
-    .processWords{
-      padding: 50% 0 0 0;
-      font-size: 40px;
-      text-shadow: 2px 2px 4px #000000;
-    }
-    /* .hireText > p {
-      font-size: 50px;
-    } */
     .footerColumn {
       float: left;
       width: 30%;
