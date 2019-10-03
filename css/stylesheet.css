@@ -58,6 +58,10 @@ color:gray;
     background-color: rgba(243, 178, 28, 1);
     color: white;
 }
+.servicesInfo {
+  background-color: rgba(243, 178, 28, 1);
+  color: white;
+}
 .livDescription > p {
   text-align: center;
   padding: 5% 0;
@@ -121,11 +125,6 @@ color:gray;
   font-size: 20px;
   margin: 50px 0px 0px 0px;
 }
-.footerPic{
-  height: 40px;
-  padding: 20px;
-}
-
 /* Image rows */
 * {
   box-sizing: border-box;
@@ -198,6 +197,11 @@ color:gray;
   filter: grayscale(0%);
   width: 600px;
 }
+/* Footer Control */
+.footerPic{
+  height: 40px;
+  padding: 20px;
+}
 .footer {
   background-color: rgba(243, 178, 28, 1);
   margin: 0 auto;
@@ -234,11 +238,16 @@ color:gray;
   margin: 0;
   padding:30px 0 0 0;
 }
-/* Services Page */
-.processDescrip{
-  height: 300px;
-  background-color: rgba(243, 178, 28, 1);
+.footerColumn {
+  float: left;
+  width: 30%;
+  margin: 0 auto;
+  padding: 0 0 0 10px;
+  font-size: 2vw;
 }
+/* End of Footer control */
+
+/* Services Page */
 .businessDevList, .brandingList, .creativeList {
   text-decoration: none;
   list-style: none;
@@ -246,13 +255,6 @@ color:gray;
   color: gray;
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
-}
-.processList {
-  font-weight: 800;
-}
-.servicesInfo {
-  background-color: rgba(243, 178, 28, 1);
-  color: white;
 }
 .processWords{
   color: white;
@@ -285,4 +287,7 @@ color:gray;
 }
 .businessDevList, .brandingList, .creativeList > li {
   font-size: 3vw;
+}
+.fontWeight {
+  font-weight: 800;
 }

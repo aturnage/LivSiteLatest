@@ -5,20 +5,10 @@
     top: 150px;
     left: 80px;
   }
-  .liv {
+  /* .liv {
     font-size:100px;
     margin: 0px 5px 0px 5px;
-  }
-  .descriptSize {
-    font-size: 35px;
-    font-weight: 500;
-  }
-  .outside {
-    font-size: 90px;
-  }
-  .box {
-    font-size: 85px;
-  }
+  } */
   .footer{
     height: 300px;
   }
@@ -42,25 +32,11 @@
       top: 150px;
       left: 10px;
     }
-    .liv {
-      font-size: 75px;
-      margin: 0px 1px 0px 1px;
-    }
-    .descriptSize {
-      font-size: 30px;
-      font-weight: 500;
-    }
     .column {
       float: left;
       width: 33.33%;
     }
-    .footerColumn {
-      float: left;
-      width: 30%;
-      margin: 0 auto;
-      padding: 0 0 0 10px;
-      font-size: 20px;
-    }
+}
 
   @media screen and (max-width: 768px) {
     .topLeft{
@@ -68,24 +44,9 @@
       top: 150px;
       left: 10px;
     }
-    .liv {
-      font-size: 50px;
-      margin: 0px 1px 0px 1px;
-    }
-    .descriptSize {
-      font-size: 25px;
-      font-weight: 500;
-    }
     .column {
       float: left;
       width: 33.33%;
-    }
-    .footerColumn {
-      float: left;
-      width: 30%;
-      margin: 0 auto;
-      padding: 0 0 0 10px;
-      font-size: 20px;
     }
   }
   @media screen and (max-width: 680px) {
@@ -94,24 +55,9 @@
       top: 150px;
       left: 10px;
     }
-    .liv {
-      font-size: 30px;
-      margin: 0px 1px 0px 1px;
-    }
-    .descriptSize {
-      font-size: 20px;
-      font-weight: 500;
-    }
     .column {
       float: left;
       width: 33.33%;
-    }
-    .footerColumn {
-      float: left;
-      width: 30%;
-      margin: 0 auto;
-      padding: 0 0 0 10px;
-      font-size: 20px;
     }
   }
   @media screen and (max-width: 620px) {
@@ -120,24 +66,9 @@
       top: 150px;
       left: 10px;
     }
-    .liv {
-      font-size: 30px;
-      margin: 0px 1px 0px 1px;
-    }
-    .descriptSize {
-      font-size: 20px;
-      font-weight: 500;
-    }
     .column {
       float: left;
       width: 33.33%;
-    }
-    .footerColumn {
-      float: left;
-      width: 30%;
-      margin: 0 auto;
-      padding: 0 0 0 10px;
-      font-size: 10px;
     }
   }
   @media screen and (max-width: 414px) {
@@ -145,20 +76,5 @@
       position: absolute;
       top: 100px;
       left: 10px;
-    }
-    .liv {
-      font-size: 30px;
-      margin: 0px 1px 0px 1px;
-    }
-    .descriptSize {
-      font-size: 10px;
-      font-weight: 500;
-    }
-    .footerColumn {
-      float: left;
-      width: 30%;
-      margin: 0 auto;
-      padding: 0 0 0 10px;
-      font-size: 10px;
     }
   };
