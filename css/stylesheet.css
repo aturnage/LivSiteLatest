@@ -34,7 +34,6 @@ body, html {
  text-decoration: none;
  list-style: none;
  color: rgba(243, 178, 28, 1);
- font-family: 'Oswald', sans-serif;
 }
 .headerLinks > a:visited{
 text-decoration: none;
@@ -46,6 +45,10 @@ text-decoration: none;
 list-style: none;
 color:gray;
 }
+.headerLinks > a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
 #logoImg {
   max-height:30px;
   margin: 0px auto;
@@ -55,21 +58,24 @@ color:gray;
     background-color: rgba(243, 178, 28, 1);
     color: white;
 }
-.livDescription {
+.livDescription > p {
   text-align: center;
   padding: 5% 0;
   font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
 }
 .sectionTitles {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: rgba(243, 178, 28, 1);
+  font-size: 5vw;
 }
 .sectionTitlesReverse{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
   background-color: rgba(243, 178, 28, 1);
+  font-size: 5vw;
 }
 .businessDev{
   background-image: url(/images/business.jpeg);
@@ -162,6 +168,10 @@ color:gray;
   background-color: rgba(243, 178, 28, 1);
   color: white;
   font-family: 'Montserrat', sans-serif;
+  height: 400px;
+}
+.hireText > p {
+  font-size: 3vw;
 }
 .grayscale {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -211,6 +221,10 @@ color:gray;
  text-decoration: none;
  list-style: none;
  color:gray;
+}
+.links > a {
+  font-size: 3vw;
+  text-align: center;
 }
 .copyright {
   background-color: rgba(243, 178, 28, 1);
