@@ -7,6 +7,12 @@ body, html {
   margin: 0;
   padding: 0;
 }
+.placeholder{
+  height: 300px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
 .container960 {
   max-width: 960px;
   margin: 0 auto;
@@ -23,18 +29,32 @@ body, html {
 }
 .tagline > img {
   display: block;
-  position: absolute;
+  /* position: absolute; */
   width: 50%;
 }
-
+.centeredImage {
+  display: block;
+  margin: 0 auto;
+}
 /* Main page picture */
 .mainPic {
-  background-image: url(/images/main-page-pic.png);
+  /* background-image: url(/images/main-page-pic.png);
   position: display;
   top: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: cover; */
+  /* The image used */
+ /* background-image: url(/images/main-page-pic.png); */
+ background-color: blue;
+ /* Full height */
+ height: 700px;;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color
 }
 /* End Main page picture */
 
@@ -67,7 +87,7 @@ color:gray;
   text-align: center;
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: rgba(63, 63, 63, 1);
 }
 /* END of Header Control */
 
@@ -185,12 +205,6 @@ color:gray;
 .largebusiness {
   background-image: url("/images/fortune-500.jpg");
 }
-.hireText {
-  background-color: rgba(243, 178, 28, 1);
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  height: 400px;
-}
 .grayscale {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -267,11 +281,18 @@ color:gray;
 .processWords{
   color: white;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 3vw;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-weight: 800; */
+  /* font-size: 3vw; */
   top: 50%;
   text-shadow: 2px 2px 8px black;
+}
+.hireText {
+  /* background-color: rgba(243, 178, 28, 1);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  height: 400px; */
+  background-color: rgba(63, 63, 63, 1);
 }
 .processSize{
   height: 250px;
