@@ -45,10 +45,10 @@ body, html {
   height: 100%;
   background-size: cover; */
   /* The image used */
- /* background-image: url(/images/main-page-pic.png); */
+ background-image: url(/images/think-differently.jpeg);
  background-color: blue;
  /* Full height */
- height: 700px;;
+ height: 700px;
 
  /* Center and scale the image nicely */
  background-position: center;
