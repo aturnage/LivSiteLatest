@@ -217,22 +217,35 @@ color:gray;
   filter: grayscale(0%);
   width: 600px;
 }
+
+/* ASK LIV Layout */
+.askLiv {
+  background-color: rgba(5, 5, 10, 1);
+}
+.askImage {
+  width: 200px;
+  margin: 0 0 0 10%;
+}
+
+/* END ASK LIV */
 /* Footer Control */
 .footerPic{
-  height: 40px;
-  padding: 20px;
+  /* height: 40px; */
+  /* padding: 20px; */
 }
 .footer {
   background-color: rgba(243, 178, 28, 1);
-  margin: 0 auto;
-  padding: 30px 0 0 0;
+  /* margin: 0 auto; */
+  /* padding: 30px 0 0 0; */
 }
 .footerInfo {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  list-style: none;
 }
- .link > a:link {
+.footerInfo > span {
+  font-size: 1vw;
+}
+ /* .link > a:link {
   text-decoration: none;
   list-style: none;
 }
@@ -247,29 +260,32 @@ color:gray;
  color:gray;
 }
 .links > a {
-  font-size: 3vw;
+  font-size: 1vw;
   text-align: center;
-}
-.copyright {
+} */
+/* .copyright {
   background-color: rgba(243, 178, 28, 1);
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding:30px 0 0 0;
-}
-.footerColumn {
+} */
+.footerFrontColumn {
   float: left;
-  width: 30%;
+  width: 70%;
   margin: 0 auto;
-  padding: 0 0 0 10px;
-  font-size: 2vw;
-}
-.footer{
-  height: 500px;
+  /* padding: 0 0 0 10px; */
+  /* font-size: 2vw; */
 }
 .footerLogo {
   max-width:100px;
+}
+.footerSpacing {
+  margin: 0 10px 0 0;
+}
+.footerColor {
+  color: gray;
 }
 /* End of Footer control */
 
