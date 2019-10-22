@@ -37,6 +37,11 @@ body, html {
   display: block;
   margin: 0 auto;
 }
+/* Navigation */
+.noPadding {
+  padding: 0;
+}
+
 /* Main page picture */
 .mainPic {
   /* background-image: url(/images/main-page-pic.png);
@@ -93,6 +98,7 @@ color:gray;
   position: sticky;
   top: 0;
   background-color: rgba(63, 63, 63, 1);
+
 }
 /* END of Header Control */
 
