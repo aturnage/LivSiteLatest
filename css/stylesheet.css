@@ -113,8 +113,8 @@ color:gray;
   color: white;
 }
 .livDescription > p {
-  text-align: center;
-  padding: 5% 0;
+  text-align: left;
+  /* padding: 5% 0; */
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5vw;
 }
@@ -123,9 +123,13 @@ color:gray;
   width: 49%;
   margin: 0px auto;
 }
+.mainDescription {
+  margin: 15%;
+}
 .mainDescripText {
-  background-color: rgba(65, 65, 65, 1);
-  color: white;
+  /* background-color: rgba(65, 65, 65, 1); */
+  color: rgba(243, 178, 28, 1);
+  font-size: 3vw;
 }
 .defineDesignDeliver{
   max-width: 400px;
@@ -342,10 +346,13 @@ color:gray;
   background-color: rgba(243, 178, 28, 1);
   height: 100px;
 }
-.descripWords {
-  color:gray;
-  font-weight: 800;
-  font-style: italic;
+.livwords {
+  color:rgba(66, 66, 66, 1);
+  /* font-weight: 800; */
+}
+.livwordsTitle {
+  color: rgba(243, 178, 28, 1);
+  font-weight: 600;
 }
 .workSpace > p {
   margin: 10px 0 0 0;
