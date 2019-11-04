@@ -9,10 +9,16 @@ body, html {
   border-radius: 0;
 }
 .placeholder{
-  height: 300px;
-  background-color: black;
-  color: white;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+.placeholder > img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 .container960 {
   max-width: 960px;
@@ -32,6 +38,8 @@ body, html {
   display: block;
   /* position: absolute; */
   width: 50%;
+  padding: 0;
+  margin: 0;
 }
 .centeredImage {
   display: block;
@@ -41,7 +49,13 @@ body, html {
 .noPadding {
   padding: 0;
 }
-
+/* .line {
+  height: 5px;
+  background-color: rgba(243, 178, 28, 1);
+  margin: 0;
+  padding: 0;
+  border: 0;
+} */
 /* Main page picture */
 .mainPic {
   /* background-image: url(/images/main-page-pic.png);
@@ -100,7 +114,6 @@ color:gray;
   position: sticky;
   top: 0;
   background-color: rgba(63, 63, 63, 1);
-
 }
 /* END of Header Control */
 
@@ -126,7 +139,7 @@ color:gray;
   margin: 0px auto;
 }
 .mainDescription {
-  margin: 15%;
+  margin: 10%;
 }
 .mainDescripText {
   /* background-color: rgba(65, 65, 65, 1); */
@@ -136,6 +149,14 @@ color:gray;
 .defineDesignDeliver{
   max-width: 400px;
   display: block;
+}
+.hireTitle {
+  color: rgba(243, 178, 28, 1);
+  font-size: 1.5vw;
+  font-family: 'Montserrat', sans-serif;
+}
+.hireText {
+  color:rgba(66, 66, 66, 1);
 }
 .sectionTitles {
   font-family: 'Montserrat', sans-serif;
@@ -336,7 +357,7 @@ color:gray;
   color: white;
   font-family: 'Montserrat', sans-serif;
   height: 400px; */
-  background-color: rgba(63, 63, 63, 1);
+  /* background-color: rgba(63, 63, 63, 1); */
 }
 .processSize{
   height: 250px;
