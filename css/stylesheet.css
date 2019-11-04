@@ -49,13 +49,14 @@ body, html {
 .noPadding {
   padding: 0;
 }
-/* .line {
+.line {
   height: 5px;
+  width: 85%;
   background-color: rgba(243, 178, 28, 1);
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   border: 0;
-} */
+}
 /* Main page picture */
 .mainPic {
   /* background-image: url(/images/main-page-pic.png);
