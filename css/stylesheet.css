@@ -137,7 +137,7 @@ color:gray;
 .columnMainDescrip {
   float: Left;
   width: 49%;
-  margin: 0px auto;
+  /* margin: 0px auto; */
 }
 .mainDescription {
   margin: 10%;
@@ -145,7 +145,6 @@ color:gray;
 .mainDescripText {
   /* background-color: rgba(65, 65, 65, 1); */
   color: rgba(243, 178, 28, 1);
-  font-size: 3vw;
 }
 .defineDesignDeliver{
   max-width: 400px;
@@ -352,13 +351,6 @@ color:gray;
   /* font-size: 3vw; */
   top: 50%;
   text-shadow: 2px 2px 8px black;
-}
-.hireText {
-  /* background-color: rgba(243, 178, 28, 1);
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  height: 400px; */
-  /* background-color: rgba(63, 63, 63, 1); */
 }
 .processSize{
   height: 250px;
