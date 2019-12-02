@@ -66,6 +66,14 @@ body, html {
   padding: 0;
   border: 0;
 }
+.titleLine {
+  height: 5px;
+  width: 100%;
+  background-color: rgba(243, 178, 28, 1);
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
 /* Main page picture */
 .mainPic {
   /* background-image: url(/images/main-page-pic.png);
