@@ -9,7 +9,13 @@
   <title>LIV | Connect</title>
 </head>
 <body>
-  <div class="navigation"></div>
+  <div class="header">
+    <li><a href="/"><img src="/images/liv-logo-orange-final.png" id="logoImg" alt="Liv Logo"></a>
+    <li class="headerLinks"><a href="/about">about</a></li>
+    <li class="headerLinks"><a href="/services">services</a></li>
+    <li class="headerLinks"><a href="/work">work</a></li>
+    <li class="headerLinks"><a href="/connect">connect</a></li>
+  </div>
   <!-- <div class="header">
     <li><a href="/"><img src="/images/liv-outise-the-box.png" id="logoImg" alt="Liv Logo"></a>
     <li class="headerLinks"><a href="/about">about</a></li>
@@ -83,38 +89,34 @@
 </div>
 <input type="submit" value="Submit">
 </form>
-<div class="askLiv">
-  <a href="/connect"><img class="responsive"src="/images/ask-liv.png" alt="Ask Liv How we can help"></a>
+
+<!-- Ask Liv -->
+<div class="row askLiv noPadding">
+  <div class="askColumn">
+    <img class="responsive askImage noPadding"src="/images/think-differently.jpeg" alt="Ask Liv How we can help">
+  </div>
+  <div class="askColumn hello noPadding">
+    <p>Need help?  Ask Liv...Click here</p>
+      <form method="get" action="/connect">
+        <button class="askButton" type="submit">Ask Liv</button>
+      </form>
+  </div>
 </div>
-
-  <div class="footer">
-    <div class="footerColumn footerInfo backgroundImageControl">
-      <img class="footerLogo" src="/images/liv-logo-white.png" alt="Logo" style="width:100%">
-      <p class="footerInfo">Liv Outside the Box</p>
-      <p class="footerInfo">Call us - (314) 495-0088</p>
-      <p class="footerInfo">Email us - aturnage@livstl.com</p>
-    </div>
-    <div class="footerColumn footerInfo backgroundImageControl">
-      <p>OUR ADDRESS</p>
-      <p>4818 Washington Blvd</p>
-      <p>Saint Louis, MO 63104</p></div>
-    <div class="footerColumn footerInfo backgroundImageControl">
-      <li>OUR SITE</li>
-      <li class="links"><a href="/">home</a></li>
-      <!-- <li class="links"><a href="/about">about</a></li> -->
-      <li class="links"><a href="/services">services</a></li>
-      <!-- <li class="links"><a href="/work">work</a></li> -->
-      <li class="links"><a href="/connect">connect</a></li></div>
+<!-- Footer -->
+<div class="footer">
+  <div class="footerFrontColumn footerInfo">
+    <!-- <img class="footerLogo" src="/images/liv-logo-white.png" alt="Logo" style="width:100%"> -->
+    <span class="footerSpacing">Liv Consultants, LLC</span>
+    <span>314-495-0088</span>
+    <span class="footerColor footerSpacing">phone</span>
+    <span>aturnage@livstl.com</span>
+    <span class="footerColor">email</span>
   </div>
-  <div class="copyright">
-    <p class="copyright">Copyright 2019 Liv Consultants. All Rights Reserved</p>
+  <div class="footerBackColumn">
+    <span><a href="https://www.facebook.com/Livconsultant/"><img src="/images/fb-logo-image.png" class="socialMediaIcons" alt="facebook logo" title="Facebook"</a></span>
+    <span><a href="https://www.linkedin.com/company/34576241/admin/"><img src="/images/linkedIn-logo-image.png" class="socialMediaIcons" alt="Linked-In logo" title="LinkedIn"></a></span>
+    <span><a href="mailto:aturnage@livstl.com"><img src="/images/email-logo-image.png" class="socialMediaIcons" alt="email logo" title="Email"></a></span>
   </div>
 
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous">
-  </script>
-  <script src="./scripts/liv.js" charset="utf-8"></script>
 </body>
 </html>

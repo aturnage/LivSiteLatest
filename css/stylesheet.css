@@ -76,16 +76,18 @@ body, html {
 }
 /* Main page picture */
 .mainPic {
-  /* background-image: url(/images/main-page-pic.png);
-  position: display;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover; */
-  /* The image used */
  background-image: url(/images/whiteboard.jpg);
- /* background-color: blue; */
- /* Full height */
+ height: 700px;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+ /* filter: grayscale(100%); */
+}
+.mainPicServices {
+ background-image: url(/images/order-here.jpg);
  height: 700px;
 
  /* Center and scale the image nicely */
@@ -146,16 +148,37 @@ color:gray;
   background-color: rgba(243, 178, 28, 1);
   color: white;
 }
+.livDescription {
+  margin: 0 auto;
+}
 .livDescription > p {
   text-align: left;
   /* padding: 5% 0; */
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 .columnMainDescrip {
   float: Left;
   width: 49%;
   /* margin: 0px auto; */
+}
+.learnMoreButton {
+  color: rgba(243, 178, 28, 1)
+}
+.learnLinks > a:link {
+ text-decoration: none;
+ list-style: none;
+ color: rgba(243, 178, 28, 1);
+}
+.learnLink > a:visited{
+text-decoration: none;
+list-style: none;
+color: rgba(243, 178, 28, 1);
+}
+.learLink > a:hover {
+text-decoration: none;
+list-style: none;
+color:gray;
 }
 .mainDescription {
   margin: 10%;
@@ -377,6 +400,10 @@ color:gray;
 }
 .footerColor {
   color: gray;
+}
+.socialMediaIcons {
+  width: 40px;
+  padding:0 10px 0 0;
 }
 /* End of Footer control */
 
