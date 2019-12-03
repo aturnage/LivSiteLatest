@@ -505,6 +505,17 @@ div {
  }
 
 /* Connect Page */
+.mainPicConnect {
+ background-image: url(/images/main-page-pic.png);
+ height: 700px;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+ /* filter: grayscale(100%); */
+}
 input[type=text] {
   border: none;
   border-bottom: 2px solid rgba(243, 178, 28, 1);
@@ -512,4 +523,16 @@ input[type=text] {
 input[type=textbox] {
   border: 2px solid red;
   border-radius: 4px;
+}
+/* work page */
+.mainPicWork {
+ background-image: url(/images/portfolio.jpg);
+ height: 700px;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+ /* filter: grayscale(100%); */
 }
