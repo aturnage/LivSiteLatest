@@ -449,7 +449,7 @@ color:gray;
   font-size: 5vw;
 }
 .businessDevList, .brandingList, .creativeList > li {
-  font-size: 3vw;
+  font-size: 2vw;
 }
 .fontWeight {
   font-weight: 800;
@@ -512,6 +512,14 @@ input[type=text] {
 input[type=textbox] {
   border: 2px solid red;
   border-radius: 4px;
+}
+label, .optionList {
+  color: rgba(63, 63, 63, 1);
+  font-family: 'Montserrat', sans-serif;
+}
+#assistance {
+  font-size: 2vw;
+  color: rgba(63, 63, 63, 1);
 }
 /* work page */
 .mainPicWork {
