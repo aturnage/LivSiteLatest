@@ -427,6 +427,9 @@ color:gray;
 .processSize{
   height: 250px;
 }
+.proceesImages {
+  width: 100%;
+}
 .hireSize{
   height: 250px;
 }
@@ -487,4 +490,11 @@ div {
   /* background-color: #f2f2f2; */
   padding: 20px;
 }
-}
+ /* Services Page */
+ .defineTitle, .designTitle, .deliverTitle {
+   text-align: center;
+   color: rgba(243, 178, 28, 1);
+   font-family: 'Montserrat', sans-serif;
+   font-family: impact;
+   font-size: 2.5vw
+ }
