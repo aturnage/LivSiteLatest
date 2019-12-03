@@ -8,6 +8,11 @@ body, html {
   padding: 0;
   border-radius: 0;
 }
+div {
+  /* border-radius: 5px; */
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
 .placeholder{
   display: block;
   margin: 0 auto;
@@ -166,7 +171,7 @@ text-decoration: none;
 list-style: none;
 color: rgba(243, 178, 28, 1);
 }
-.learLink > a:hover {
+.learnLink > a:hover {
 text-decoration: none;
 list-style: none;
 color:gray;
@@ -267,7 +272,6 @@ color:gray;
 .companyColumn {
   float: left;
   width: 11%;
-  /* padding: 5px; */
 }
 .boutique {
   background-image: url("/images/boutique-business.jpeg");
@@ -474,12 +478,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: rgba(243, 178, 28, 1);
-}
-
-div {
-  border-radius: 5px;
-  /* background-color: #f2f2f2; */
-  padding: 20px;
 }
  /* Services Page */
  .defineTitle, .designTitle, .deliverTitle {
