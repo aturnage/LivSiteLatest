@@ -34,15 +34,6 @@ body, html {
   width: 100%;
   height: auto
 }
-.tagline {
-  /* position: block;
-  width: 100%;
-  height: 100%;
-  top: 50%; */
-  /* display:table-cell;
-  vertical-align:middle;
-  text-align:center; */
-}
 .liveOutside {
   display: block;
   margin: 0 auto;
